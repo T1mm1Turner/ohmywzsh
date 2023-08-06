@@ -1,5 +1,6 @@
 # To get my plugins and configs remember to run: #  
 ```sh
+git switch Wr3nchT
 git submodule update --init
 ```
 
