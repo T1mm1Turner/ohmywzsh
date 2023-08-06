@@ -102,7 +102,11 @@ sudo-command-line() {
 
 zle -N sudo-command-line
 
-# Defined shortcut keys: [Esc] [Esc]
-bindkey -M emacs '\e\e' sudo-command-line
-bindkey -M vicmd '\e\e' sudo-command-line
-bindkey -M viins '\e\e' sudo-command-line
+# Default shortcut keys: [Esc][Esc]
+# bindkey -M emacs '\e\e' sudo-command-line
+# bindkey -M vicmd '\e\e' sudo-command-line
+# bindkey -M viins '\e\e' sudo-command-line
+## Custom shortcut keys: [F1][F1]
+bindkey -M emacs '^[OP^[OP' sudo-command-line
+bindkey -M vicmd '^[OP^[OP' sudo-command-line
+bindkey -M viins '^[OP^[OP' sudo-command-line

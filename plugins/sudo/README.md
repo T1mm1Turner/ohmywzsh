@@ -1,6 +1,6 @@
 # sudo
 
-Easily prefix your current or previous commands with `sudo` by pressing <kbd>esc</kbd> twice.
+Easily prefix your current or previous commands with `sudo` by pressing <kbd>F1</kbd> twice.
 
 To use it, add `sudo` to the plugins array in your zshrc file:
 
@@ -62,7 +62,7 @@ The same happens for file editing, as told before.
 
 ## Key binding
 
-By default, the `sudo` plugin uses <kbd>Esc</kbd><kbd>Esc</kbd> as the trigger.
+By default, the `sudo` plugin uses <kbd>F1</kbd><kbd>F1</kbd> as the trigger.
 If you want to change it, you can use the `bindkey` command to bind it to a different key:
 
 ```sh

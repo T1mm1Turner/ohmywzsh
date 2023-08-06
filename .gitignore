@@ -1,5 +1,7 @@
 # custom files
 custom/
+## To keep custom configs but ignore themes and plugins uncomment:
+## custom/**/
 
 # temp files directories
 cache/
