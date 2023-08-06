@@ -1,3 +1,8 @@
+# To get my plugins and configs remember to run: #  
+```sh
+git submodule update --init
+```
+
 <p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh"></p>
 
 Oh My Zsh is an open source, community-driven framework for managing your [zsh](https://www.zsh.org/) configuration.
@@ -21,38 +26,39 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh), follow [@ohmyzsh](https://twi
 <details>
 <summary>Table of Contents</summary>
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Basic Installation](#basic-installation)
-    - [Manual inspection](#manual-inspection)
-- [Using Oh My Zsh](#using-oh-my-zsh)
-  - [Plugins](#plugins)
-    - [Enabling Plugins](#enabling-plugins)
-    - [Using Plugins](#using-plugins)
-  - [Themes](#themes)
-    - [Selecting a Theme](#selecting-a-theme)
-  - [FAQ](#faq)
-- [Advanced Topics](#advanced-topics)
-  - [Advanced Installation](#advanced-installation)
-    - [Custom Directory](#custom-directory)
-    - [Unattended install](#unattended-install)
-    - [Installing from a forked repository](#installing-from-a-forked-repository)
-    - [Manual Installation](#manual-installation)
-  - [Installation Problems](#installation-problems)
-  - [Custom Plugins and Themes](#custom-plugins-and-themes)
-  - [Enable GNU ls in macOS and freeBSD systems](#enable-gnu-ls)
-  - [Skip aliases](#skip-aliases)
-- [Getting Updates](#getting-updates)
-  - [Updates verbosity](#updates-verbosity)
-  - [Manual Updates](#manual-updates)
-- [Uninstalling Oh My Zsh](#uninstalling-oh-my-zsh)
-- [How do I contribute to Oh My Zsh?](#how-do-i-contribute-to-oh-my-zsh)
-  - [Do NOT send us themes](#do-not-send-us-themes)
-- [Contributors](#contributors)
-- [Follow Us](#follow-us)
-- [Merchandise](#merchandise)
-- [License](#license)
-- [About Planet Argon](#about-planet-argon)
+- [To get my plugins and configs remember to run:](#to-get-my-plugins-and-configs-remember-to-run)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Basic Installation](#basic-installation)
+      - [Manual inspection](#manual-inspection)
+  - [Using Oh My Zsh](#using-oh-my-zsh)
+    - [Plugins](#plugins)
+      - [Enabling Plugins](#enabling-plugins)
+      - [Using Plugins](#using-plugins)
+    - [Themes](#themes)
+      - [Selecting a Theme](#selecting-a-theme)
+    - [FAQ](#faq)
+  - [Advanced Topics](#advanced-topics)
+    - [Advanced Installation](#advanced-installation)
+      - [Custom Directory](#custom-directory)
+      - [Unattended install](#unattended-install)
+      - [Installing from a forked repository](#installing-from-a-forked-repository)
+      - [Manual Installation](#manual-installation)
+    - [Installation Problems](#installation-problems)
+    - [Custom Plugins and Themes](#custom-plugins-and-themes)
+    - [Enable GNU ls in macOS and freeBSD systems](#enable-gnu-ls-in-macos-and-freebsd-systems)
+    - [Skip aliases](#skip-aliases)
+  - [Getting Updates](#getting-updates)
+    - [Updates verbosity](#updates-verbosity)
+    - [Manual Updates](#manual-updates)
+  - [Uninstalling Oh My Zsh](#uninstalling-oh-my-zsh)
+  - [How do I contribute to Oh My Zsh?](#how-do-i-contribute-to-oh-my-zsh)
+    - [Do NOT send us themes](#do-not-send-us-themes)
+  - [Contributors](#contributors)
+  - [Follow Us](#follow-us)
+  - [Merchandise](#merchandise)
+  - [License](#license)
+  - [About Planet Argon](#about-planet-argon)
 
 </details>
 
